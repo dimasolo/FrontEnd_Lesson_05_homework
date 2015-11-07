@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastre</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="menu">
+		<ul>
+			<li>
+				<a href="#">Meu YouBike</a>
+			</li>
+			<li>
+				<a href="#">Vender</a>
+			</li>
+			<li>
+				<a href="#">Forum</a>
+			</li>
+			<li>
+				<a href="#">Contato</a>
+			</li>
+			<li>
+				<a href="#">Ajuda</a>
+			</li>
+			<li class="border1">
+				<img class="flag" src="img/flag.png" alt="Flag" title="Flag">
+				<a class="flag sparta" href="#">Minhas Ofertas</a>
+			</li>
+			<li class="border2">
+				<a class="sparta" href="#">Ola! <span>Entrar</span> ou <span>Cadastre-se</span></a>
+			</li>
+		</ul>
+	</div>
+	<div class="form_container">
+		<div class="form">
+			<span>Cadastre-se</span>
+			<a href="#">
+				<img src="img/facebook_button.png" alt="Facebook Button">
+			</a>
+			<div class="ou"><img src="img/OU.png" alt="OU"></div>
+			<form action="http://localhost" method="post">
+					<div><input type="text" name="first_name" value="First Name"></div>
+					<div><input type="text" name="last_name" value="Last Name"></div>
+					<div><input type="text" name="email" value="Email Address"></div>
+					<div><input type="text" name="password" value="Choose Password"></div>
+					<div><input type="text" name="password_confirm" value="Password Confirm"></div>
+					<br>
+					<div class="checkbox"><input type="checkbox" name="send_bike">Send me Youbike updates and tips</div>
+					<br>
+					<div><input type="submit" name="create_account" value="Create my Account"></div>
+					<br>
+					<div class="agree">By clicking the button above, you agree to the Terms of Service</div>
+					<br>
+					<div class="agree">View our Privacy Policy</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

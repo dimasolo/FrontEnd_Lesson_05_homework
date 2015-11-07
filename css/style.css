@@ -1,0 +1,152 @@
+/*
+download
+fonts
+*/
+@font-face {
+	font-family: "Helvetica";
+	src: local("Helvetica"), url(../fonts/HelveticaNeue.ttf)
+}
+/*
+body
+*/
+body {
+	background-image: url(../img/background.gif);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 100%;
+	font-family: Helvetica, Arial, sans-serif;
+}
+/*
+top horizontal menu
+*/
+.menu {
+	height: 35px;
+	padding-right: 20px;
+	background-image: url(../img/background_menu.png);
+}
+.menu ul {
+	list-style: none;
+	font-size: 0;
+	line-height: 0;
+	letter-spacing: -1px;
+	float: right;
+	height: 35px;
+	width: 775px;
+}
+.menu ul li {
+	text-align: center;
+	font-size: 14px;
+	line-height: 35px;
+	letter-spacing: normal;
+	display: inline-block;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #60b5ed;
+}
+.menu ul li:hover {
+	background-color: #4eabda;
+}
+.menu ul li a:hover {
+	color: white;
+}
+.menu ul li .flag {
+	display: inline-block;
+	padding-left: 15px;
+	vertical-align: middle;
+}
+.menu ul li .sparta {
+	color: white;
+	font-size: 14px;
+}
+span {
+	text-decoration: underline;
+}
+.menu ul .border1 {
+	border-left: 1.5px solid #56a2dc;
+	border-right: 1.5px solid #56a2dc;
+	height: 35px;
+}
+.menu ul .border2 {
+	border-right: 1.5px solid #56a2dc;
+	height: 35px;
+	background-image: url(../img/layer.png);
+}
+.form_container {
+	text-align: center;
+}
+.form_container .form {
+	width: 565px;
+	height: 615px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-left: 30%;
+	margin-right: 30%;
+	text-align: center;
+	background-color: rgba(57,63,49,0.5);
+}
+.form_container .form span{
+	color: #cccccc;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	display: block;
+	text-decoration: none;
+	font-size: 24px;
+	border-bottom: 2px solid #bfc9b1;
+}
+.form_container .form a img{
+	padding-top: 35px;
+}
+.form_container .form .ou {
+	padding-top: 30px;
+	display: block;	
+}
+.form_container .form form {
+	padding-top: 30px;
+}
+.form_container .form form div {
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #494949;
+}
+.form_container .form form input[type="text"] {
+	width: 261px;
+	height: 30px;
+	padding-left: 20px;
+	color:#cccccc;
+	font-size: 14px;
+	background-color: #0f0f0f;
+	border:none;
+	display: block;
+}
+.form_container .form div.checkbox {
+	border-bottom: none;
+	text-decoration: none;
+	color: #cccccc;
+	font-weight: normal;
+}
+.form_container .form form input[type="submit"] {
+	color:#cccccc;
+	background: url(../img/button.png);
+	border:none;
+	border-radius: 3px;
+	width: 150px;
+	height: 35px;
+	font-size: 14px;
+}
+.form_container .form form input[type="text"]:focus {
+	background-color: #1b5288;
+	box-shadow: 0px 0px 10px 5px #689bcc;
+}
+.form_container .form div.agree {
+	border-bottom: none;
+	text-decoration: none;
+	color: #cccccc;
+	font-weight: normal;
+	font-size: 11px;
+	margin-bottom: 7px;
+}
+
